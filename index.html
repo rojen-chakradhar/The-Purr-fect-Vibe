@@ -9,6 +9,18 @@
   </head>
   <body>
     <main>
+      <h1 class="heading">cat vibe check</h1>
+      <p class="tagline">How are you feeling? Get a cat to match.</p>
+      <figure>
+        <img src="" alt="cat image" class="cat-image">
+      </figure>
+      <section class="vibes">
+        <button onclick="setVibe('chill')" class="vibe btn">chill</button>
+        <button onclick="setVibe('chaos')" class="vibe btn">chaos</button>
+        <button onclick="setVibe('grumpy')" class="vibe btn">grumpy</button>
+        <button onclick="setVibe('fancy')" class="vibe btn">fancy</button>
+      </section>
+      <button onclick="fetchCat()" class="refresh btn">new cat, same vibe</button>
     </main>
     <script src="./scripts/script.js"></script>
   </body>

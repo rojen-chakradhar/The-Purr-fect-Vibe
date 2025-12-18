@@ -1,5 +1,5 @@
 # WHACK-A-CAT 😺🔨
-Hey there! This is a web based game. In this game, you whick a cat that comes out from the hole. The time is limited. Whack as many cats as you can in the limited time and see how many can you whack. Play this game with your friends and see who can whack many cats.
+This is a web based game. In this game, you whick a cat that comes out from the hole. The time is limited. Whack as many cats as you can in the limited time and see how many can you whack. Play this game with your friends and see who can whack many cats.
 
 ## 🚀 Tech Stack
 - HTML

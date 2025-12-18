@@ -8,19 +8,19 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
-    <main>
+    <main class="container">
       <h1 class="heading">cat vibe check</h1>
       <p class="tagline">How are you feeling? Get a cat to match.</p>
-      <figure>
-        <img src="" alt="cat image" class="cat-image">
+      <figure class="cat-display">
+        <img src="https://placehold.co/400x400?text=Loading+Cat..." alt="cat image" class="cat-image" id="cat-img">
       </figure>
-      <section class="vibes">
+      <section class="vibes controls">
         <button onclick="setVibe('chill')" class="vibe btn">chill</button>
         <button onclick="setVibe('chaos')" class="vibe btn">chaos</button>
         <button onclick="setVibe('grumpy')" class="vibe btn">grumpy</button>
         <button onclick="setVibe('fancy')" class="vibe btn">fancy</button>
       </section>
-      <button onclick="fetchCat()" class="refresh btn">new cat, same vibe</button>
+      <button onclick="fetchCat()" class="refresh btn" id="refresh">new cat, same vibe</button>
     </main>
     <script src="./scripts/script.js"></script>
   </body>

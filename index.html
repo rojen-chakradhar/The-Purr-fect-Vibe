@@ -3,24 +3,47 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Purr-fect Vibe</title>
+    <title>WHACK-A-CAT</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/emoji/96/cat-face.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
     <main class="container">
-      <h1 class="heading">cat vibe check</h1>
-      <p class="tagline">How are you feeling? Get a cat to match.</p>
-      <figure class="cat-display">
-        <img src="https://placehold.co/400x400?text=Loading+Cat..." alt="cat image" class="cat-image" id="cat-img">
-      </figure>
-      <section class="vibes controls">
-        <button onclick="setVibe('chill')" class="vibe btn">chill</button>
-        <button onclick="setVibe('chaos')" class="vibe btn">chaos</button>
-        <button onclick="setVibe('grumpy')" class="vibe btn">grumpy</button>
-        <button onclick="setVibe('fancy')" class="vibe btn">fancy</button>
-      </section>
-      <button onclick="fetchCat()" class="refresh btn" id="refresh">new cat, same vibe</button>
+    	<h1>WHACK-A-CAT! 🐾</h1>
+    	<div class="stats">
+    		Score: <span id="score">0</span> | Time: <span id="time">20</span>s
+    	</div>
+    	<div class="game-board">
+    		<div class="hole">
+          <div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    		<div class="hole">
+    			<div class="cat"></div>
+    		</div>
+    	</div>
+    	<button id="start-btn" onclick="startGame()">START GAME</button>
     </main>
     <script src="./scripts/script.js"></script>
   </body>

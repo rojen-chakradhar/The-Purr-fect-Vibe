@@ -27,6 +27,7 @@ body {
 }
 
 body {
+	position: relative;
 	background-color: #f0f0f0;
 	font-family: "Courier New", Courier, monospace;
 	display: flex;
@@ -38,6 +39,22 @@ body {
 	margin: 0;
 	overflow: hidden;
 	cursor: url("https://cur.cursors-4u.net/nature/nat-10/nat985.cur"), auto;
+}
+
+.gif {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10%;
+}
+
+.gif2 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10%;
+	width: 20%;
+	height: auto;
 }
 
 h1 {

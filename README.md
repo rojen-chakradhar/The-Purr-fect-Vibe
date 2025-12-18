@@ -22,6 +22,7 @@ This is a web based game. In this game, you whick a cat that comes out from the 
 - Now enjoy the game
 
 ## 🎨 Features
+- Cute cat gifs
 - Smooth and minimal scroll animations
 - Fully responsive layout for all devices
 - Working slider to see reviews.

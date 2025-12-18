@@ -43,7 +43,9 @@ body {
 h1 {
 	color: var(--hc-red);
 	margin-bottom: 0;
+  font-weight: bold;
 }
+
 .stats {
 	font-size: 1.5rem;
 	font-weight: bold;
